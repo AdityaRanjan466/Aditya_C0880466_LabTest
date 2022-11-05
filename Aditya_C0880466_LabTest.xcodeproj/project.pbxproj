@@ -13,6 +13,7 @@
 		18883C722915C937005F1A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18883C702915C937005F1A9D /* Main.storyboard */; };
 		18883C742915C938005F1A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18883C732915C938005F1A9D /* Assets.xcassets */; };
 		18883C772915C938005F1A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18883C752915C938005F1A9D /* LaunchScreen.storyboard */; };
+		18883C7F2915E601005F1A9D /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18883C7E2915E601005F1A9D /* TimerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		18883C732915C938005F1A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18883C762915C938005F1A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18883C782915C938005F1A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18883C7E2915E601005F1A9D /* TimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		18883C692915C937005F1A9D /* Aditya_C0880466_LabTest */ = {
 			isa = PBXGroup;
 			children = (
+				18883C7E2915E601005F1A9D /* TimerVC.swift */,
 				18883C6A2915C937005F1A9D /* AppDelegate.swift */,
 				18883C6C2915C937005F1A9D /* SceneDelegate.swift */,
 				18883C6E2915C937005F1A9D /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				18883C6F2915C937005F1A9D /* ViewController.swift in Sources */,
 				18883C6B2915C937005F1A9D /* AppDelegate.swift in Sources */,
+				18883C7F2915E601005F1A9D /* TimerVC.swift in Sources */,
 				18883C6D2915C937005F1A9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
