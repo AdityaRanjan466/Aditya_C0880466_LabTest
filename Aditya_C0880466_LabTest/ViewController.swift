@@ -41,6 +41,10 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func timerSwitch() {
+    }
+    
+    
     
     private func secondsToHoursMinutesSeconds(_ seconds: Int) -> (String) {
         let calHours = seconds / 3600
